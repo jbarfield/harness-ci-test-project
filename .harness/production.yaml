@@ -1,8 +1,8 @@
 environment:
-  name: production
+  name: test-pre-prod
   identifier: production
   description: ""
   tags: {}
-  type: Production
+  type: PreProduction
   orgIdentifier: default
   projectIdentifier: default_project
