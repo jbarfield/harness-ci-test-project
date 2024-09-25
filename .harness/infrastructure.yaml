@@ -8,7 +8,7 @@ infrastructureDefinition:
   type: KubernetesDirect
   spec:
     connectorRef: k8sconnector
-    namespace: default
+    namespace: harness-ci
     releaseName: release-<+INFRA_KEY_SHORT_ID>
     provisioner: <+input>
   allowSimultaneousDeployments: true
