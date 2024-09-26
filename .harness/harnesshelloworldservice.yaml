@@ -15,7 +15,7 @@ service:
                   connectorRef: harnessrsasshkeytest
                   gitFetchType: Branch
                   paths:
-                    - ./
+                    - harnesscd-stage
                   repoName: GoHelloWorldServer
                   branch: main
               valuesPaths:
